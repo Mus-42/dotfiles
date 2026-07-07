@@ -14,3 +14,6 @@ syntax on
 
 " colorscheme habamax
 colorscheme unokai
+
+"set list
+set listchars=trail:-,space:·,nbsp:·,eol:$,tab:>-
