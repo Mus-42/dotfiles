@@ -7,6 +7,8 @@ vim.pack.add({
     "https://github.com/folke/tokyonight.nvim",
 
     {
+        -- TODO deal with "archived project" thing
+        -- Move to https://github.com/neovim-treesitter/nvim-treesitter
         src = "https://github.com/nvim-treesitter/nvim-treesitter",
         version = "main"
     },

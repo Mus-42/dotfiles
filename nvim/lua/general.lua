@@ -21,6 +21,8 @@ vim.opt.signcolumn = "yes"
 vim.opt.winborder = "rounded"
 vim.opt.completeopt = { "menuone", "noselect", "popup" }
 
+vim.opt.mouse = ""
+
 -- cool but strange
 -- vim.opt.cursorline = true 
 

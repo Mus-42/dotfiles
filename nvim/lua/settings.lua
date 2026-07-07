@@ -1,17 +1,17 @@
 local S = {
     lsp_servers = {
-        "zls",
-        "clangd",
-        "lua_ls",
+        -- "zls",
+        -- "clangd",
+        -- "lua_ls",
         -- "rust_analyzer",
         -- "marksman",
-        "cmake",
+        -- "cmake",
         -- "tinymist",
-        "pylsp",
+        -- "pylsp",
         -- etc
     },
     ts_parsers =  {
-        "c", "lua", "python", "vim", "vimdoc", "rust", "zig", "cpp", "glsl", "cmake"
+        -- "c", "lua", "python", "vim", "vimdoc", "rust", "zig", "cpp", "glsl", "cmake"
     },
 
     -- TODO options to enable/disable specific plugins, etc.?
