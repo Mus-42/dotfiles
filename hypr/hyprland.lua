@@ -1,0 +1,5 @@
+require("hlconf.autostart")
+require("hlconf.env")
+require("hlconf.general")
+require("hlconf.input")
+require("hlconf.keybinds")
