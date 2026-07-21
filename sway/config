@@ -1,0 +1,23 @@
+include ./common-variables
+include ./host-quirks
+
+output * bg $wallpaper fill
+font pongo:Monospace 10 
+for_window [shell="xwayland"] title_format "[XWayland] %title"
+
+# i already forgot what it actually does
+exec swayidle -w \
+         $screnlock \
+         timeout 1805 'swaymsg "output * power off"' resume 'swaymsg "output * power on"' \
+         before-sleep $screenlock
+
+input "type:keyboard" {
+    xkb_layout "us,ua,ru"
+}
+
+# exec dbus-update-activation-environment XDG_CURRENT_DESKTOP=sway
+
+include ./keybindings
+include ./autostart
+include ./theme
+include /etc/sway/config.d/*

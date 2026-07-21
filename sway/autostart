@@ -1,0 +1,5 @@
+exec $screenlock
+exec $bar
+exec thunar --daemon
+
+# vi: ft=swayconfig

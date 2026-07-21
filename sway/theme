@@ -1,0 +1,21 @@
+# class                 border  bground text    indicator child_border
+client.focused          #666666 #666666 #f8f8f8 #5555FF   #555555
+client.focused_inactive #424242 #424242 #f8f8f8 #5555FF   #303030
+client.unfocused        #303030 #303030 #f8f8f8 #5555FF   #303030
+client.urgent           #44475A #f05c8e #f8f8f8 #5555FF   #303030
+client.placeholder      #1d212a #1d212a #f8f8f8 #5555FF   #303030
+client.background       #F8F8F2
+
+hide_edge_borders smart
+# default_border pixel 2
+# default_floating_border pixel 2
+default_border normal 
+default_floating_border normal
+
+titlebar_border_thickness 0
+titlebar_padding 1
+
+gaps outer 0
+gaps inner 0
+
+# vi: ft=swayconfig

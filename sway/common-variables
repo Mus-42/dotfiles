@@ -1,0 +1,11 @@
+# Logo key. Use Mod1 for Alt.
+set $mod Mod4
+
+set $term foot
+set $bar waybar
+set $menu fuzzel
+set $wallpaper ~/dotfiles/wallpapers/wallpaper_main_1920x1080.png
+set $screenlock "swaylock -e -F -f -c 444444 -k -i $wallpaper"
+set $take_screenshot slurp | grim -g - - | wl-copy --type image/png
+
+# vi: ft=swayconfig
